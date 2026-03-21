@@ -344,3 +344,42 @@ body {
     padding: 10px 8px;
   }
 }
+
+.start-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFE9E3;
+  padding: 20px;
+}
+
+.start-box {
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #D9CFC7;
+  border-radius: 12px;
+  padding: 40px 50px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.start-box h1 {
+  margin-bottom: 18px;
+  font-size: 2.3rem;
+}
+
+.start-link {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #000;
+  text-decoration: none;
+  background-color: #D9CFC7;
+  padding: 12px 22px;
+  border-radius: 8px;
+  border: 1px solid #bfb4ab;
+}
+
+.start-link:hover {
+  background-color: #efe4dc;
+  color: #000;
+}
