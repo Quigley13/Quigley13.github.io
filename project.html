@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Portfolio</title>
+  <link rel="icon" type="image/png" href="LogoSM.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page-wrap">
+    <header>
+      <nav class="navbar navbar-expand-lg topbar">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+            <img class="logo" src="LogoSM.png" alt="My Logo">
+            <span>Alexander Quigley</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+              <li class="nav-item"><a class="nav-link active" href="project.html">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container main-area projects-container">
+      <h1>Projects</h1>
+      <p>Here are some of my projects.</p>
+
+      <div class="project-card presentation-card">
+  <div class="project-text">
+    <h2>Critical Vulnerabilities at ShieldNova</h2>
+    <p>This was my system security final project where my group and I looked at different vulnerabilities in a simulated environment and explained how they could be exploited. We worked through things like SQL injection, password cracking, file upload issues, binary weaknesses, and network traffic analysis, then connected all of that to the real security risks and possible fixes. It was a really good project for understanding how different security problems can connect together in one system.</p>
+    <div class="project-actions">
+      <a class="project-btn" href="System%20Security%20Final%20Project%20Presentation.pdf" target="_blank" rel="noopener">Open PDF</a>
+    </div>
+  </div>
+  <div class="pdf-preview-wrapper">
+    <object class="pdf-preview" data="System%20Security%20Final%20Project%20Presentation.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH" type="application/pdf">
+      <p><a href="System%20Security%20Final%20Project%20Presentation.pdf" target="_blank" rel="noopener">View the PDF</a></p>
+    </object>
+  </div>
+</div>
+
+<div class="project-card presentation-card">
+  <div class="project-text">
+    <h2>Adobe Flash Vulnerability CVE-2016-4117</h2>
+    <p>In this project, my group and I researched and presented on the Adobe Flash vulnerability CVE-2016-4117. We broke down what the vulnerability was, why it was serious, how attackers could use it, and what kind of impact it could have on a system. This project helped me get more comfortable explaining a real cybersecurity issue in a way that connects the technical side with the bigger picture.</p>
+    <div class="project-actions">
+      <a class="project-btn" href="Adobe%20Flash%20Vulnerability%20CVE-2016-4117.pdf" target="_blank" rel="noopener">Open PDF</a>
+    </div>
+  </div>
+  <div class="pdf-preview-wrapper">
+    <object class="pdf-preview" data="Adobe%20Flash%20Vulnerability%20CVE-2016-4117.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH" type="application/pdf">
+      <p><a href="Adobe%20Flash%20Vulnerability%20CVE-2016-4117.pdf" target="_blank" rel="noopener">View the PDF</a></p>
+    </object>
+  </div>
+</div>
+
+<div class="project-card presentation-card">
+  <div class="project-text">
+    <h2>Sorting Project</h2>
+    <p>This project focused on comparing different sorting algorithms and seeing how they performed with different types of data. My group and I tested multiple sorts, tracked timing and compares, and looked at how the algorithms handled random, almost sorted, reverse sorted, and duplicate-filled arrays. It was a solid project for learning more about algorithm efficiency and seeing how class concepts actually play out in code and data.</p>
+    <div class="project-actions">
+      <a class="project-btn" href="Sorting%20Project.pdf" target="_blank" rel="noopener">Open PDF</a>
+    </div>
+  </div>
+  <div class="pdf-preview-wrapper">
+    <object class="pdf-preview" data="Sorting%20Project.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH" type="application/pdf">
+      <p><a href="Sorting%20Project.pdf" target="_blank" rel="noopener">View the PDF</a></p>
+    </object>
+  </div>
+</div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Alexander Quigley</p>
+      <p>Contact: <a href="mailto:Ajquigley13@gmail.com">Ajquigley13@gmail.com</a></p>
+      <p>
+        <a href="https://www.linkedin.com/in/ajquigley13/" target="_blank" rel="noopener">LinkedIn</a>
+        |
+        <a href="https://github.com/Quigley13" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
